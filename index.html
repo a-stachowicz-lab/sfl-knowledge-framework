@@ -1,12 +1,110 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="de">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SECOND SUN SYSTEM</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="SECOND SUN SYSTEM — Denkraum für Systemarchitekturen.">
+  <title>SECOND SUN SYSTEM — System · Struktur · Synergie</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=DM+Sans:wght@400;500;600&family=Fraunces:opsz,wght@9..144,400;9..144,500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>SECOND SUN SYSTEM</h1>
-    <p>Willkommen auf meiner Website.</p>
+  <a class="skip-link" href="#inhalt">Zum Inhalt springen</a>
+
+  <header class="site-header" id="start">
+    <a class="brand" href="#start" aria-label="SECOND SUN SYSTEM, zurück zum Anfang">
+      <span>SECOND SUN SYSTEM</span>
+      <small>System · Struktur · Synergie</small>
+    </a>
+    <button class="menu-toggle" aria-expanded="false" aria-controls="main-navigation">
+      <span class="visually-hidden">Menü öffnen</span><i></i><i></i>
+    </button>
+    <nav id="main-navigation" class="main-navigation" aria-label="Hauptnavigation">
+      <a href="#start">Start</a>
+      <a href="#ueber-mich">Über mich</a>
+      <a href="#arbeit">Meine Arbeit</a>
+      <a href="#veroeffentlichungen">Veröffentlichungen</a>
+      <a href="#projekte">Projekte</a>
+      <a href="#tagebuch">Systemtagebuch</a>
+      <a href="#kontakt">Kontakt</a>
+    </nav>
+  </header>
+
+  <main id="inhalt">
+    <section class="hero" aria-labelledby="hero-title">
+      <img class="hero-image" src="./images/second-sun-system.png" alt="Illustrative Arbeitswelt von SECOND SUN SYSTEM mit Systemmatrix, Notizen und Waage.">
+      <div class="hero-shade"></div>
+      <div class="hero-content">
+        <p class="eyebrow">SECOND SUN SYSTEM</p>
+        <h1 id="hero-title">Ein Denkraum für<br>Systemverständnis</h1>
+        <p class="hero-intro">Ein neues Fragment für das gemeinsame Verständnis komplexer Systeme.</p>
+        <p class="hero-copy">Willkommen. Schön, dass du da bist.</p>
+        <a class="button button-light" href="#idee">Denkraum betreten <span aria-hidden="true">↓</span></a>
+      </div>
+    </section>
+
+    <aside class="thought-note" aria-label="Denkzettel 001">
+      <span>DENKZETTEL 001</span>
+      <strong>Nicht perfekt.<br>Aber echt.</strong>
+    </aside>
+
+    <section id="idee" class="section idea-section">
+      <div class="section-label">01 — Die Idee</div>
+      <div class="prose wide-prose">
+        <p class="intro">Warum dieser Denkraum existiert.</p>
+        <p>Komplexe Systeme scheitern selten zufällig. Häufig entstehen Konflikte dort, wo Materialien, Funktionen, Prozesse oder Entscheidungen aufeinandertreffen.</p>
+        <p>Dieser Denkraum ist eine offene Sammlung von Beobachtungen, Modellen, Veröffentlichungen und Forschungsnotizen. Kein abgeschlossenes Lehrbuch. Sondern ein Ort, an dem Systemarchitekturen wachsen dürfen.</p>
+      </div>
+    </section>
+
+    <section id="arbeit" class="section work-section">
+      <div class="section-heading">
+        <div class="section-label">02 — Meine Arbeit</div>
+        <h2>Form für das, was<br>zusammenwirkt.</h2>
+      </div>
+      <div class="work-grid">
+        <article class="work-card"><span>01</span><h3>Modelle</h3><p>Strukturen sichtbar machen. Konflikte verstehen. Zusammenhänge analysieren.</p></article>
+        <article class="work-card"><span>02</span><h3>Veröffentlichungen</h3><p>Öffentliche Gedanken, Forschungsnotizen und ausgewählte Fragmente.</p></article>
+        <article class="work-card"><span>03</span><h3>Projekte</h3><p>Systemarchitekturen und Demonstratoren im interdisziplinären Kontext.</p></article>
+      </div>
+    </section>
+
+    <section id="veroeffentlichungen" class="section publication-section">
+      <div class="section-label">03 — Veröffentlichungen</div>
+      <div class="split-content"><h2>Was geteilt werden kann.</h2><div class="prose"><p>Hier finden öffentliche Dokumente ihren Platz: Whitepaper, Forschungsnotizen und ausgewählte Veröffentlichungen.</p><a class="text-link" href="#kontakt">Zu öffentlichen Anfragen <span aria-hidden="true">→</span></a></div></div>
+    </section>
+
+    <section id="projekte" class="section projects-section">
+      <div class="section-label">04 — Projekte</div>
+      <div class="project-list">
+        <article><p class="project-number">01</p><h3>SECOND SUN SYSTEM</h3><p>Ein wachsender Denkraum für Struktur, Kopplung und Verständlichkeit.</p></article>
+        <article><p class="project-number">02</p><h3>Demonstratoren</h3><p>Konkrete Formen, die Annahmen und Wechselwirkungen erfahrbar machen.</p></article>
+        <article><p class="project-number">03</p><h3>Interdisziplinäre Anwendungen</h3><p>Arbeit dort, wo verschiedene Perspektiven eine gemeinsame Sprache brauchen.</p></article>
+      </div>
+    </section>
+
+    <section id="tagebuch" class="section journal-section">
+      <div class="section-label">05 — Systemtagebuch</div>
+      <div class="journal-content"><div><h2>Ein Arbeitsjournal,<br>kein Blog.</h2><p>Gedanken. Beobachtungen. Denkzettel. Neue Perspektiven. Neue Fragen.</p></div><div class="journal-note"><span>NÄCHSTER EINTRAG</span><strong>In Arbeit.</strong><p>Hier werden nach und nach neue Denkzettel erscheinen.</p></div></div>
+    </section>
+
+    <section id="ueber-mich" class="section about-section">
+      <div class="section-label">06 — Über mich</div>
+      <div class="split-content"><h2>Über mich.</h2><div class="prose"><p>Mom. Systemarchitektin. Autodidaktin.</p><p>Ich entwickle Systemarchitekturen, um komplexe Zusammenhänge verständlich, nachvollziehbar und überprüfbar zu machen.</p><p>Meine Arbeit beginnt mit Zuhören — und mit der Überzeugung, dass Struktur ein Weg zu mehr Klarheit sein kann.</p></div></div>
+    </section>
+
+    <section id="kontakt" class="section contact-section">
+      <p class="section-label">07 — Kontakt</p>
+      <h2>Ein Gedanke,<br>eine Frage?</h2>
+      <p>Ich suche Menschen, die Freude daran haben, komplexe Systeme gemeinsam zu verstehen: Ingenieure, Materialwissenschaftler, Informatiker, Designer und kritische Denker. Unterschiedliche Perspektiven machen ein System besser.</p>
+      <a class="button button-dark" href="mailto:kontakt@secondsunsystem.de">Kontakt aufnehmen <span aria-hidden="true">↗</span></a>
+    </section>
+  </main>
+
+  <footer class="site-footer"><p>© SECOND SUN SYSTEM</p><p>System · Struktur · Synergie</p></footer>
+  <script src="script.js"></script>
 </body>
 </html>
+
